@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/famous/famous",
+    "pages/flights/flights"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "000000",
+    "navigationBarTitleText": "經典產品",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "000000"
+  },
+  "tabBar": {
+    "position":"bottom",
+    "borderStyle":"black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "經典商品"
+      },
+      {
+        "pagePath": "pages/famous/famous",
+        "text": "特色景點"
+      },
+      {
+        "pagePath": "pages/flights/flights",
+        "text": "優惠航班"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "debug":false
+}

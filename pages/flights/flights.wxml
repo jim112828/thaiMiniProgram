@@ -1,0 +1,2 @@
+<!--pages/flights/flights.wxml-->
+<mp-searchbar></mp-searchbar>

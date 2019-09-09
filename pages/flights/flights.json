@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "mp-searchbar": "../../component/mp-searchbar"
+  },
+  "navigationBarBackgroundColor": "#FFCC00",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "優惠航班",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

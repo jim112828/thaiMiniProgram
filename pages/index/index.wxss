@@ -1,0 +1,8 @@
+/* pages/index/index.wxss */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "mp-searchbar": "../../component/mp-searchbar"
+  },
+  "navigationBarBackgroundColor": "#CC00FF",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "特色景點",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

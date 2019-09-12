@@ -1,11 +1,42 @@
 <!--pages/index/index.wxml-->
 <view class="container">
-<mp-searchbar></mp-searchbar>
-<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-<block  wx:for="{{imgUrls}}" wx:key='key'>
-<swiper-item>
-          <image src="{{item}}" class="slide-image" width="355" height="150"/>
-</swiper-item>
-</block>
-</swiper>
+  <mp-searchbar></mp-searchbar>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key='key'>
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="35" height="10" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- section -->
+  <!-- <view class="section">
+  <view class="section__title">flex-direction: row</view>
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_green">
+    <image src=""></image>
+    </view>
+    <view class="flex-item bc_red">
+    <image src=""></image>
+    </view>
+    <view class="flex-item bc_blue">
+    <image src=""></image>
+    </view>
+  </view>
+</view> -->
+<view class="page-section" style="text-align:center">特惠商品</view>
+<!-- scroll -->
 </view>
+<view class='box'>
+<scroll-view  scroll-y='true' style="height:{{height}}px" bindscrolltolower='lower'>
+  <view  class="flex-wrp" wx:for="{{res}}" data-id="{{index}}" wx:key="{{index}}" style="height:{{(height/6)-1}}px;width:100%;text-align:center;line-height:{{(height/6)-1}}px;">
+  <view class="flex-item" style="width:50%;border:1px solid #ccc">
+    {{item}}
+    </view>
+    <view class="flex-item" style="width:50%;border:1px solid #ccc">
+    {{item}}
+    </view>
+  </view>
+
+</scroll-view>
+</view>
+
